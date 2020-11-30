@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'me.murilin'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'com.github.MuriloGhignatti:MSEssentials-Plugin:-SNAPSHOT'
+}
